@@ -36,8 +36,9 @@ app.get('/pendapatan', function (req, res) {
 
 //tagihan
 app.get('/tagihan', function (req, res) {
-  req.render('pages/tagihan');
+  res.render('pages/tagihan');
 })
 
+//cicilan
 app.listen(3000);
 console.log("Server is running on http://localhost:3000");
