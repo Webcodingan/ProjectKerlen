@@ -7,19 +7,19 @@
 
 <body>
     <div class="container mt-5">
-        <h3>Manajemen Pendapatan</h3>
+        <h3>Manajemen Pengeluaran</h3>
 
-        <!-- Form Input Pendapatan -->
+        <!-- Form Input Pengeluaran -->
         <div class="card mb-4">
             <div class="card-header">
-                Tambah Pendapatan Baru
+                Tambah Pengeluaran Baru
             </div>
             <div class="card-body">
-                <form id="pendapatan-form">
-                    <input type="hidden" id="pendapatan-id" name="id">
+                <form id="pengeluaran-form">
+                    <input type="hidden" id="pengeluaran-id" name="id">
                     <div class="row">
                         <div class="col-md-3">
-                            <label for="sumber" class="form-label">Sumber Pendapatan</label>
+                            <label for="sumber" class="form-label">Sumber Pengeluaran</label>
                             <input type="text" class="form-control" id="sumber" name="sumber" required>
                         </div>
                         <div class="col-md-3">
@@ -84,8 +84,8 @@
                         </select>
                     </div>
                     <div class="col-md-3">
-                        <label for="kategori" class="form-label">Kategori</label>
-                        <select class="form-select" id="kategori" name="kategori" required>
+                        <label for="filter-kategori" class="form-label">Kategori</label>
+                        <select id="filter-kategori" class="form-select">
                             <option value="" disabled selected>Pilih Kategori</option>
                             <option value="semua">Semua Kategori</option>
                             <option value="makanan">Makanan</option>
@@ -98,18 +98,18 @@
                 </div>
             </div>
         </div>
-
-        <!-- Tabel Daftar Pendapatan -->
+    
+        <!-- Tabel Daftar Pengeluaran -->
         <div class="card">
             <div class="card-header">
-                Daftar Pendapatan
+                Daftar Pengeluaran
             </div>
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Sumber Pendapatan</th>
+                                <th>Sumber Pengeluaran</th>
                                 <th>Jumlah</th>
                                 <th>Kategori</th>
                                 <th>Tanggal</th>

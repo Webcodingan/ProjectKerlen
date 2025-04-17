@@ -25,8 +25,8 @@ res.render('pages/register');
 });
 
 //Manajemen
-app.get('/manajemen', function(req, res) {
-res.render('pages/manajemen');
+app.get('/pengeluaran', function(req, res) {
+res.render('pages/pengeluaran');
 });
 
 // pendapatan
