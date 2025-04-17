@@ -30,9 +30,14 @@ res.render('pages/manajemen');
 });
 
 // pendapatan
-app.get("/pendapatan", function (req, res) {
-  res.render("pages/pendapatan");
+app.get('/pendapatan', function (req, res) {
+  res.render('pages/pendapatan');
 });
+
+//tagihan
+app.get('/tagihan', function (req, res) {
+  req.render('pages/tagihan');
+})
 
 app.listen(3000);
 console.log("Server is running on http://localhost:3000");

@@ -7,7 +7,7 @@
 
 <body>
     <div class="container mt-5">
-        <h3>Manajemen Pengeluaran</h3>
+        <h3>Manajemen Pendapatan</h3>
 
         <!-- Filter Data -->
         <div class="card mb-4">
@@ -46,22 +46,22 @@
             </div>
         </div>
 
-        <!-- Total Pengeluaran -->
+        <!-- Total Pendapatan -->
         <div class="total-box mb-4">
-            <h5>Total Pengeluaran: <span id="total-pengeluaran">Rp 0</span></h5>
+            <h5>Total Pendapatan: <span id="total-pendapatan">Rp 0</span></h5>
         </div>
 
-        <!-- Form Input Pengeluaran -->
+        <!-- Form Input Pendapatan -->
         <div class="card mb-4">
             <div class="card-header">
-                Tambah Pengeluaran Baru
+                Tambah Pendapatan Baru
             </div>
             <div class="card-body">
-                <form id="pengeluaran-form">
-                    <input type="hidden" id="pengeluaran-id" name="id">
+                <form id="pendapatan-form">
+                    <input type="hidden" id="pendapatan-id" name="id">
                     <div class="row">
                         <div class="col-md-4">
-                            <label for="sumber" class="form-label">Sumber Pengeluaran</label>
+                            <label for="sumber" class="form-label">Sumber Pendapatan</label>
                             <input type="text" class="form-control" id="sumber" name="sumber" required>
                         </div>
                         <div class="col-md-3">
@@ -91,10 +91,10 @@
             </div>
         </div>
 
-        <!-- Tabel Daftar Pengeluaran -->
+        <!-- Tabel Daftar Pendapatan -->
         <div class="card">
             <div class="card-header">
-                Daftar Pengeluaran
+                Daftar Pendapatan
             </div>
             <div class="card-body">
                 <div class="table-responsive">
